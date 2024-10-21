@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+}
+
+h1 {
+    color: rgb(7, 199, 253);
+}
+
+h2 {
+    color: rgb(159, 16, 16);
+}
+
+p {
+    color: white;
+}
+
+.text-orange {
+    color: orange;
+}   
+
+#header {
+    color: rgb(7, 199, 253);
+    background-color: rgb(189, 247, 247);
+}
+/*Seleccion por anidamiento */
+.section-texts p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: salmon;
+}
+
+/*Seleccion por agrupamiento */
+
+.titles h3,
+.titles h4,
+.titles h5 {
+    color: seagreen;
+    border-color: bisque;
+} 
+
+
